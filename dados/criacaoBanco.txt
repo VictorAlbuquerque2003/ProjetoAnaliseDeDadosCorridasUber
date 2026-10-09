@@ -1,0 +1,23 @@
+CREATE TABLE ncr_ride_bookings_raw (
+    "Date" TIMESTAMP,
+    "Time" TIME,
+    "Booking_ID" VARCHAR(50),
+    "Booking_Status" VARCHAR(50),
+    "Customer_ID" VARCHAR(50),
+    "Vehicle_Type" VARCHAR(50),
+    "Pickup_Location" VARCHAR(50),
+    "Drop_Location" VARCHAR(50),
+    "Avg_VTAT" VARCHAR(50),
+    "Avg_CTAT" VARCHAR(50),
+    "Cancelled_Rides_by_Customer" VARCHAR(50),
+    "Reason_for_cancelling_by_Customer" VARCHAR(50),
+    "Cancelled_Rides_by_Driver" VARCHAR(50),
+    "Driver_Cancellation_Reason" VARCHAR(50),
+    "Incomplete_Rides" VARCHAR(50),
+    "Incomplete_Rides_Reason" VARCHAR(50),
+    "Booking_Value" VARCHAR(50),
+    "Ride_Distance" VARCHAR(50),
+    "Driver_Ratings" VARCHAR(50),
+    "Customer_Rating" VARCHAR(50),
+    "Payment_Method" VARCHAR(50)
+);
